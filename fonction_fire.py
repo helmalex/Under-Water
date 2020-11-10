@@ -10,7 +10,7 @@ def fire(target_x, target_y):
     The function will verify if the cursor and a submarine are in the same axe (x and y), if yes the submarine will lose one 
     point of life"""
     
-    for a in range(1, nb_submarine + 1):
+    for a in range(1, nb_submarines + 1):
       if target_x == submarine[a]["x"] and target_y == submarine[a]["y"] and submarine[a]["life"] > 0:
         submarine[a]["life"] -= 1
         
