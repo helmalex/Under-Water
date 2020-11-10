@@ -1,0 +1,13 @@
+def sonar(nb_submarines) :
+  """Show where are the submarines on the map.
+  
+  Parameters :
+  ------------
+  nb_submarines = number of submarines in the game (int).
+  
+  """
+  
+  for n in range(1, nb_submarines + 1) :
+    x = submarine[n]["x"]
+    y = submarine[n]["y"]
+    microbit.display.set_pixel(x, y, 4)
