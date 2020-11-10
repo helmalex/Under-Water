@@ -8,9 +8,11 @@ def sonar(nb_submarines) :
   """
   
   for n in range(1, nb_submarines + 1) :
+    pv = submarine[n]["life"]
     x = submarine[n]["x"]
     y = submarine[n]["y"]
-    microbit.display.set_pixel(x, y, 4)
+    if pv > 0 :
+      microbit.display.set_pixel(x, y, 4)
   
   microbit.sleep(2500)
   microbit.display.clear()
