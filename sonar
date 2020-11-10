@@ -11,3 +11,6 @@ def sonar(nb_submarines) :
     x = submarine[n]["x"]
     y = submarine[n]["y"]
     microbit.display.set_pixel(x, y, 4)
+  
+  microbit.sleep(2500)
+  microbit.display.clear()
