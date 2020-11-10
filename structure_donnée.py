@@ -9,7 +9,7 @@ submarine = {}
 life = {}
 x = {}
 y = {}
-def dictionnary(nbr_submarine):
+def dictionnary(nb_submarine):
   """Specification of the function
   Parameters:
   -----------
