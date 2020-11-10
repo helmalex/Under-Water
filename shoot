@@ -6,8 +6,6 @@ def shoot(target_x, target_y) :
     
     for n in range(1, nb_submarines + 1) :
         
-        pv = submarines[n]["life"]
-        
         if target_x == submarines[n]["x"] and target_y == submarines[n]["y"] :
           microbit.display.set_pixel(submarines[n]["x"], submarines[n]["y"], 9)
           microbit.sleep(2500)
