@@ -2,7 +2,14 @@ import microbit
 import random
 
 def shoot(target_x, target_y) :
-    """Shoot on the selected pixel"""
+    """Shoot on the selected pixel
+    
+    Parameters :
+    ------------
+    target_x = x coordinate of the shoot (int).
+    target_y = y coordinate of the shoot (int).
+    
+    """
     
     for n in range(1, nb_submarines + 1) :
         
